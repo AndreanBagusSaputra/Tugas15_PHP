@@ -13,7 +13,8 @@
         }
 
         public function namaBidang(){
-            echo 'Segitiga';
+            $segitiga = 'Segitiga';
+            return $segitiga;
         }
 
         public function luasBidang(){
@@ -26,11 +27,7 @@
             return $keliling;
         }
 
-        public function cetak(){
-            echo 'Nama Bidang: '. $this -> namaBidang;
-            echo '<br> Luas Bidang: '. $this -> luasBidang;
-            echo '<br> Keliling Bidang: '. $this -> kelilingBidang;
-        }
+        
     }
 
 

@@ -11,7 +11,8 @@
         }
 
         public function namaBidang(){
-            echo 'Persegi Panjang';
+            $persegipanjang = 'Persegi Panjang';
+            return $persegipanjang;
         }
 
         public function luasBidang(){
@@ -21,15 +22,10 @@
 
         public function kelilingBidang(){
             $keliling = 2 * ($this -> $panjang + $this -> $lebar);
-            return ;
+            return $keliling;
         }
 
-        public function cetak(){
-            echo 'Nama Bidang: '. $this -> namaBidang;
-            echo '<br> Luas Bidang: '. $this -> luasBidang;
-            echo '<br> Keliling Bidang: '. $this -> kelilingBidang;
-            echo '<hr>';
-        }
+       
     }
 
 

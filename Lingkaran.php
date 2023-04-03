@@ -8,23 +8,21 @@
         }
 
         public function namaBidang(){
-            echo "Lingkaran";
+            $lingkaran = 'Lingkaran';
+            return $lingkaran;
+
         }
 
         public function luasBidang(){
-            $luas = 3.14 * $this -> $jari2;
+            $luas = 3.14 * $this -> $jari2 *  $this -> $jari2;
             return $luas;
         }
 
         public function kelilingBidang(){
             $keliling = 2 * 3.14 * $this -> $jari2;
+            return $keliling;
         }
         
-        public function cetak(){
-            echo 'Nama Bidang: '. $this -> namaBidang;
-            echo '<br> Luas Bidang: '. $this -> luasBidang;
-            echo '<br> Keliling Bidang: '. $this -> kelilingBidang;
-            echo '<hr>';
-        }
+
     }
 ?>
